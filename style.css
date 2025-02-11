@@ -59,4 +59,76 @@ a{
     font-size: smaller;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+}
 
+.awesome img {
+    width: 450px;
+    height: 250px;
+}
+
+.awesome .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.awesome .text, .header ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.leftside {
+
+}
+
+.information{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.signup , .blue {
+    background-color: #3882F6;
+    color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote .two{
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    font-weight: bold;
+}
+
+
+.photos {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue .bold{
+    font-weight: bold;
+}
